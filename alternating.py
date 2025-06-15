@@ -9,3 +9,4 @@ def alternatingCharacters(s):
 
 s=input("enter the string:")
 print(alternatingCharacters(s))
+ 
