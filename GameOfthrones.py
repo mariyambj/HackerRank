@@ -1,6 +1,3 @@
-
-
-
 def gameOfThrones(s):
     char = []
     for i in s:
