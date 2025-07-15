@@ -16,10 +16,7 @@ import sys
 #
 
 def pageCount(n, p):
-    if n%2==0 and (n-p)==1:
-        return 1
-    else:
-        return min(p // 2, (n - p) // 2)
+    return min(p // 2, (n // 2) - (p // 2))
 
     #start if start < end else end
         
