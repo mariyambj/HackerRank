@@ -50,4 +50,9 @@ Sample Input 0
 STDIN       Function
 -----       --------
 5           B[] size N = 5
-2 3 4 5 6   B = [2, 3, 4, 5, 6]   '''
+2 3 4 5 6   B = [2, 3, 4, 5, 6]   
+
+
+
+
+PARITY CHECKING CONCEPT'''
