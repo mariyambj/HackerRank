@@ -7,4 +7,4 @@ stones=[]
 for i in range(n):
     stone=(n-i-1)*b + a*i
     stones.append(stone)
-print(stones)    
+print(sorted(set(stones) ))   
