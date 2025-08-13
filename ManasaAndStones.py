@@ -1,11 +1,10 @@
-n=2
-a=2
-b=3
+n=3
+a=1
+b=2
+if a>b:
+    a,b=b,a
 stones=[]
-i=0
-while i<n:
-    if (i+1)-i==a or (i+1)-i==b:
-        stones.append(i+1)
-    i+=1
-print(stones)
-    
+for i in range(n):
+    stone=(n-i-1)*b + a*i
+    stones.append(stone)
+print(stones)    
