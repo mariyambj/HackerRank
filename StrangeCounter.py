@@ -25,3 +25,22 @@ if __name__ == '__main__':
     fptr.write(str(result) + '\n')
 
     fptr.close()
+
+    '''There is a strange counter. At the first second, it displays the number . Each second, the number displayed by decrements by  until it reaches . In next second, the timer resets to  and continues counting down. The diagram below shows the counter values for each time  in the 
+    first three cycles:https://s3.amazonaws.com/hr-challenge-images/22185/1469447349-bae87a5071-strange1.png
+    
+    Find and print the value displayed by the counter at time .
+
+Function Description
+
+Complete the strangeCounter function in the editor below.
+
+strangeCounter has the following parameter(s):
+
+int t: an integer
+Returns
+
+int: the value displayed at time 
+Input Format
+
+A single integer, the value of .'''
